@@ -1,0 +1,103 @@
+@media screen and (max-width:991px){
+    .nav-logo>img {
+        height: 24px;
+    }
+    .sec-1-top {
+        flex-direction: column;
+    }
+    .sec-1-top-left {
+        width: 100%;
+        padding: 15% 5%;
+    }
+    .sec-1-top-right {
+        width: 100%;
+    }
+    .sec-1-top-left li {
+        line-height: 1.5
+    }
+    .sec-1-bottom {
+        width: 90%;
+    }
+    .sec-1-bottom>p {
+        line-height: 1.5;
+    }
+    .sec-2-header {
+        width: 90%;
+    }
+    .sec-2-header>p {
+        line-height: 1.5;
+    }
+    .sec-3-footer{
+        margin: 5% 0;
+    }
+    .sec-5-cards{
+        flex-direction: column;
+    }
+    .sec-5-left{
+        width: 100%;
+    }
+    .sec-5-left>p{
+        font-size: 1rem;
+    }
+    .sec-5-right{
+        width: 100%;
+        margin-top: 5%;
+        padding: 5% 0 15% 0;
+    }
+    .sec-5-bottom-content{
+        width: 80%;
+    }
+    .sec-5-bottom{
+        bottom: -90px;
+    }
+    .footer{
+        font-size: 0.90rem;
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:787px) {
+    .sec-2-card{
+        width: 48%;
+    }
+    .sec-3-heading {
+        width: 80%;
+        margin: auto;
+    }
+    .sec-3-cards{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .sec-3-card{
+        width: 48%;
+    }
+    .sec-6{
+        flex-wrap: wrap;
+    }
+    .sec-6-content,.sec-6-form, .sec-6-info{
+        width: 48%;
+        margin-top: 4%;
+    }
+    .sec-6-form{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px) {
+    .sec-2-card{
+        width: 90%;
+    }
+    .sec-3-card{
+        width: 100%;
+    }
+    .sec-4-cards{
+        flex-direction: column;
+    }
+    .sec-4-card{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .sec-6-content,.sec-6-form, .sec-6-info{
+        width: 100%;
+        margin-top: 4%;
+    }
+}
